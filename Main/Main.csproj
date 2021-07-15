@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abstract\Abstract.csproj" />
+    <ProjectReference Include="..\Adapter\Adapter.csproj" />
+    <ProjectReference Include="..\Bridge\Bridge.csproj" />
+    <ProjectReference Include="..\Builder\Builder.csproj" />
+    <ProjectReference Include="..\Command\Command.csproj" />
+    <ProjectReference Include="..\Composite\Composite.csproj" />
+    <ProjectReference Include="..\Factory\Factory.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
+    <ProjectReference Include="..\Observer\Observer.csproj" />
+    <ProjectReference Include="..\Singleton\Singleton.csproj" />
+    <ProjectReference Include="..\Strategy\Strategy.csproj" />
+  </ItemGroup>
+
+</Project>
